@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Debugging</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            overflow: hidden;
+        }
+        .container {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+            text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+            animation: bounce 1s infinite alternate;
+        }
+        p {
+            font-size: 24px;
+            margin-top: 20px;
+            text-shadow: 0 0 10px white;
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px cyan; }
+            100% { text-shadow: 0 0 20px rgb(112, 3, 110); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404!</h1>
+        <p>TAKE DOWN FOR  DEBUGGING PURPOSE  -Adi</p>
+    </div>
+</body>
+</html>

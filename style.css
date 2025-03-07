@@ -1,3 +1,4 @@
+
 #labelforsetting,
 #labelforvisualmode,
 #switchforvisualmode:checked+#labelforvisualmode {
@@ -251,7 +252,7 @@ html {
     position: relative;
     width: 40px;
     height: 40px;
-    background-image: url(src/png/moon.png);
+    background-image: url(src/png/crescent-moon\ \(1\).png);
     background-size: 50%;
     transition-duration: .5s;
     cursor: pointer

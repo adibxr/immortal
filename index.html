@@ -667,6 +667,14 @@ What are you doing here?! you sneaky developer  End Google Tag Manager (noscript
     'floating-chat.donateButton.text-color': '#fff'
   });
 </script>
+
+      <script>
+  const path = location.pathname;
+  if (path !== '/' && !path.endsWith('/')) {
+    location.replace(path + '/' + location.search + location.hash);
+  }
+</script>
+
 </body>
 
 </html>
